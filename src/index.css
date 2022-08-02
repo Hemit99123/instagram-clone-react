@@ -11,3 +11,61 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar__main {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgray;
+  -webkit-box-shadow: 1px 1px 22px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 22px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 1px 22px -9px rgba(0, 0, 0, 0.75);
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  top: 0;
+  z-index: 1;
+}
+
+.insta__logo {
+  width: 120px;
+}
+
+.btn {
+  padding: 25%;
+}
+
+.post_image {
+  width: 500px;
+  height: 300px;
+}
+
+.posts {
+  padding: 50px;
+  margin-top: 30px;
+}
+
+.navbar__buttons {
+  display: flex;
+  margin-right: 8px;
+}
+
+.navbar__avatar {
+  margin-right: 4px;
+}
+
+.postMap {
+  margin-top: 15px;
+}
+
+.comments {
+  width: 430px;
+  height: 93px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+}
+
+.comment {
+  padding-bottom: 32px;
+}
